@@ -1,0 +1,179 @@
+/*
+Copyright (c) 2005-15 BaseX Team
+All rights reserved.
+
+The BSD 3-Clause License
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holders nor the names of its
+   contributors may be used to endorse or promote products derived
+   from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+body {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  overflow-y: scroll;
+  margin: 1em;
+  font-size: 16px;
+}
+
+ul, dd {
+  padding-left: 1.2em;
+  margin-left: 0;
+}
+
+dl {
+  margin: 0;
+}
+
+dt {
+  margin: 0.6em 0 0.6em 0;
+  font-weight: bold;
+}
+
+table {
+  font-size: 100%;
+  padding: 0;
+  border: 0;
+  table-layout: fixed;
+}
+
+th {
+  padding: 0 1.2em .2em 0;
+}
+
+td {
+  padding: 0 1.2em 0 0;
+  vertical-align: top;
+  border: 0;
+}
+
+textarea {
+  font-family: "Consolas", "Ubuntu Mono", monospace;
+  font-size: 90%;
+  margin: 4px 0px 4px 0px;
+  width: 100%;
+}
+
+select {
+  width: 166;
+}
+
+code {
+  font-family: "Consolas", "Ubuntu Mono", monospace;
+  border: 1px solid #E3E3FF;
+  border-radius: 3px;
+  padding: 0 4px 0 4px;
+  margin: 0 2px 0 2px;
+  font-size: 90%;
+}
+
+pre {
+  font-family: "Consolas", "Ubuntu Mono", monospace;
+  font-size: 90%;
+}
+
+h1 {
+  font-size: 220%;
+  font-weight: bold;
+  color: #AA1818;
+  margin: -2px 0 0 0;
+}
+
+h2 {
+  font-size: 150%;
+  color: #CC3333;
+  margin: 0 0 0.2em 0;
+}
+
+h3 {
+  font-size: 120%;
+  color: #CC3333;
+  margin: 0.2em 0 0.2em 0;
+}
+
+h4 {
+  font-size: 100%;
+  margin: 0 0 0.4em 0;
+}
+
+hr {
+  height: 1px;
+  border: 0px;
+  background-color: #777;
+}
+
+a {
+  color: #CC3333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+p {
+  margin: 0 0 0.6em 0;
+}
+
+.right {
+  float: right;
+}
+
+.error {
+  color: #FF3333;
+  font-weight: bold;
+}
+
+.info {
+  color: #009900;
+  font-weight: bold;
+}
+
+.warning {
+  color: #999999;
+  font-weight: bold;
+}
+
+.note {
+  color: #666666;
+}
+
+.small {
+  height: 10px;
+}
+
+.variable {
+  font-family: "Calibri", "Trebuchet MS", sans-serif;
+}
+
+.vertical {
+  width: 1px;
+  border-left: 1px solid #000000;
+  height: 100%;
+}
+
+#actions img {
+  margin-right: 20px;
+}

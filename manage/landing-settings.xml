@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file is parsed and used by the landing.xqm file (frontend).
+     All paths will be tranformed into paths used by the operating system so
+     paths can be written using \ or / interchangably. 
+-->
+<LandingSettings>
+  <!-- Path to the home directory of the BaseX framework. Will be
+       used to either read the .basex configuration file (HTTP server mode).
+  -->
+  <BasexHomePath>/Users/ivanchimeno/tum-informatik-bachelorarbeit/BaseX Mac/</BasexHomePath>
+</LandingSettings>
